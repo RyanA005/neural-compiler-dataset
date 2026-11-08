@@ -45,3 +45,11 @@ linux x86-64, ubuntu~24.04.1
 ```
 
 blank lines, `.file`, `.ident` and note sections are stripped. tests link with `-no-pie -Wa,--noexecstack`.
+
+## license
+
+the scripts, templates and generated functions are mit.
+
+the exebench rows come from [exebench](https://huggingface.co/datasets/jordiae/exebench). its i/o examples and boilerplate are mit, but the c functions keep the original license of their github repo, recorded in exebench's metadata.
+
+citation: armengol-estapé et al., exebench, maps 2022. https://doi.org/10.1145/3520312.3534867
